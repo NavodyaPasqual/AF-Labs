@@ -2,7 +2,7 @@
 const first = function () {
     console.log("Hello World");
 
-    return "Thiwanka";
+    return "Navodya";
     // regarding step 2 in Q1
     // if we return this it's going to print this return
     // otherwise it is going to be undefined when we calling the second function with first function as a parameter
@@ -17,8 +17,8 @@ second(first());
 // 2
 const user = {
     id: "ID01",
-    name: "Thiwanka",
-    city: "Gampaha",
+    name: "Navodya",
+    city: "Mathugama",
     isMarried: false,
 
     getName: function () {
@@ -36,7 +36,7 @@ const printVehicleName = function () {
 };
 
 const vehicle = {
-    vehicleName: "Koenigsegg Agera",
+    vehicleName: "BMW",
     getVehicleName: printVehicleName,
 };
 
